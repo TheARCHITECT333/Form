@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import DesignerSidebar from "./DesignerSidebar";
+// import DesignerSidebar from "./DesignerSideBar";
 import { DragEndEvent, useDndMonitor, useDraggable, useDroppable } from "@dnd-kit/core";
 import { cn } from "@/lib/utils";
 import useDesigner from "./hooks/useDesigner";
@@ -9,6 +9,7 @@ import { ElementsType, FormElementInstance, FormElements } from "./FormElements"
 import { idGenerator } from "@/lib/idGenerator";
 import { Button } from "./ui/button";
 import { BiSolidTrash } from "react-icons/bi";
+import DesignerSidebar from "./DesignerSideBar";
 
 function Designer() {
   const { elements, addElement, selectedElement, setSelectedElement, removeElement } = useDesigner();
