@@ -1,6 +1,6 @@
 "use client"
 
-import { formSchema, formSchemaType } from '@/schema/form';
+import { formSchema, formSchemaType } from '@/schemas/form';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { ImSpinner2 } from "react-icons/im";
