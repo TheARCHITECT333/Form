@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PageForm",
-  description: "PageForm is a form builder for your landing pages. It's a no-code tool that allows you to create beautiful forms and surveys for your website.",
+  description: "PageForm is a form builder. ",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
